@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = UniParser::VERSION
   spec.authors       = ["Artem Petrov"]
   spec.email         = ["partos0511@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Uniparser}
+  spec.description   = %q{Universal parser, you must only describe a page wit nokogiri}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -25,10 +25,4 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-
-  spec.add_development_dependency 'minitest', "~> 5.3.0"
-  spec.add_development_dependency 'minitest-vcr'
-  spec.add_development_dependency 'vcr'
-  spec.add_development_dependency 'webmock', '< 1.16'
-  spec.add_development_dependency 'wrong'
 end

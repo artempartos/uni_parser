@@ -10,8 +10,6 @@ require 'uni_parser/proxy'
 require 'uni_parser/proxy_list'
 
 require 'uni_parser/page'
-require 'uni_parser/pages/base'
-require 'uni_parser/pages/book'
 
 module UniParser
   Encoding.default_external = Encoding::UTF_8

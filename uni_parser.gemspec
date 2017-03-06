@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "nokogiri", "~> 1.6.1"
+  spec.add_runtime_dependency "nokogiri", ">= 1.6.1"
   spec.add_runtime_dependency "mechanize", "~> 2.7.3"
   spec.add_runtime_dependency "activesupport"
   spec.add_runtime_dependency "multi_json", "~> 1.9"
